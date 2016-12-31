@@ -2,21 +2,41 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'start' ]
-2 info using npm@3.10.8
-3 info using node@v6.9.1
-4 verbose stack Error: ENOENT: no such file or directory, open 'E:\Ali\Work\ReactForum\package.json'
-4 verbose stack     at Error (native)
-5 verbose cwd E:\Ali\Work\ReactForum
-6 error Windows_NT 10.0.14393
-7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
-8 error node v6.9.1
-9 error npm  v3.10.8
-10 error path E:\Ali\Work\ReactForum\package.json
-11 error code ENOENT
-12 error errno -4058
-13 error syscall open
-14 error enoent ENOENT: no such file or directory, open 'E:\Ali\Work\ReactForum\package.json'
-15 error enoent ENOENT: no such file or directory, open 'E:\Ali\Work\ReactForum\package.json'
-15 error enoent This is most likely not a problem with npm itself
-15 error enoent and is related to npm not being able to find a file.
-16 verbose exit [ -4058, true ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart react-forum@0.1.0
+6 info start react-forum@0.1.0
+7 verbose unsafe-perm in lifecycle true
+8 info react-forum@0.1.0 Failed to exec start script
+9 verbose stack Error: react-forum@0.1.0 start: `react-scripts start`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:827:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+10 verbose pkgid react-forum@0.1.0
+11 verbose cwd E:\university\homework\react-homework
+12 error Windows_NT 10.0.14393
+13 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+14 error node v4.4.0
+15 error npm  v2.14.20
+16 error code ELIFECYCLE
+17 error react-forum@0.1.0 start: `react-scripts start`
+17 error Exit status 1
+18 error Failed at the react-forum@0.1.0 start script 'react-scripts start'.
+18 error This is most likely a problem with the react-forum package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     react-scripts start
+18 error You can get information on how to open an issue for this project with:
+18 error     npm bugs react-forum
+18 error Or if that isn't available, you can get their info via:
+18 error
+18 error     npm owner ls react-forum
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
