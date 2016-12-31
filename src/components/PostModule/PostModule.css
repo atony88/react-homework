@@ -1,0 +1,20 @@
+.dvPostMessage {
+ border : purple 1px dashed;
+ width :auto;
+ float:left;
+ padding: 15px;
+ margin:15px;
+}
+.dvPostMessage textarea
+{
+  min-width:250px;
+  min-height:100px;
+}
+.dvField {
+float:left;
+margin: 5px;
+width:100%
+}
+.dvField label{
+  float:left;width:30%
+}
